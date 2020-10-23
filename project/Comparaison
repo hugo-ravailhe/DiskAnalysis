@@ -1,0 +1,14 @@
+!!! Comparaison entre les sauvegardes !!!
+
+- Parcours du nom du fichier actuel avec mise en variable du nombre de tabulation et du nom du fichier.
+
+- Parcours du nom du fichier de sauvegarde avec mise en variable du nombre de tabulation et du nom du fichier :
+
+	- si le nombre de tabulation du fichier de sauvegarde et inférieur à celui actuel, alors le fichier à était ajouter.
+	
+	- si le nombre de tabulation du sauvegarde est inférieur à l'actuel alors on connu à parcourir les fichiers.
+	
+	- si le nombre de tabulation et le nom du ficier son identique :
+		- si le poids est pareil alors on affiche le poids tel qu'il est.
+		- si le poids est différent alors on affiche la variation de poids.
+		- Tous les fichiers non correspondant vu précédement sont des fichiers supprimés depuis la dernière fois.
